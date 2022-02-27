@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rebbitmq"
+version = "0.1.0"
+description = ""
+authors = ["gideonmandu <gideonmandu@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pika = "^1.2.0"
+rich = "^11.2.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+pytest = "^7.0.1"
+tox = "^3.24.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
